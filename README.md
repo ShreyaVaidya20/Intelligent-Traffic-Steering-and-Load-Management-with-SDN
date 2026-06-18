@@ -1,6 +1,5 @@
+## Traffic Steering and Load Balancing
 
-
-## Description
 
 This work presents an SDN-based Load Balancing and Traffic Steering system developed using Ryu Controller, Mininet, OpenFlow, and Python. The objective of the project is to improve network performance by dynamically distributing traffic across multiple available paths instead of relying on traditional single-path routing techniques. The network topology consists of 16 hosts and 8 switches interconnected through multiple redundant links, providing flexibility and fault tolerance.
 
