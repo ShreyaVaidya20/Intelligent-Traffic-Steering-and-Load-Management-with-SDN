@@ -7,3 +7,24 @@ A DFS-based path discovery algorithm is implemented to identify all possible rou
 
 The system also incorporates intelligent traffic steering and QoS-aware routing to select optimal paths based on network conditions, reducing latency and improving throughput. Experimental evaluation using ping and Iperf tests demonstrated successful multipath routing, zero packet loss, efficient bandwidth utilization, and reliable communication. This project highlights the advantages of Software Defined Networking in building scalable, flexible, and high-performance network infrastructures capable of adapting to dynamic traffic demands.
 
+## Features
+- Multipath Load Balancing
+- Dynamic Traffic Steering
+- DFS-based Path Discovery
+- QoS-aware Routing
+- OpenFlow Flow Management
+- Centralized SDN Control
+
+## Technologies Used
+- Python
+- Ryu Controller
+- Mininet
+- OpenFlow
+- Open vSwitch (OVS)
+- Linux
+
+  ## How to Run
+1. Install Mininet and Ryu.
+2. Run the topology script.
+3. Start the Ryu controller.
+4. Execute the Mininet topology and verify connectivity.
